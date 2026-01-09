@@ -1,0 +1,112 @@
+body{
+  margin: 1vw;
+  background-image: linear-gradient(90deg, #600080, #000080);
+  
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#intro{
+  margin: 0;
+}
+#foto{
+  position: absolute;
+  left: 11vw;
+  top: 5.5vh;
+  width: 9vw;
+  height: 22vh;
+}
+#titlecard{
+  width: 80vw;
+  height: 28vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#titlecard2{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titlecard3{
+  position:absolute;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  left:10vw;
+  right:10vw;
+  bottom: 25px;
+  width: 80vw;
+  height:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  margin: 0;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 10vw;
+}
+.box{
+  margin: 1vw;
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: repeat(3, 1fr);
+}
+.content{
+  background-image: linear-gradient(305deg, #ddbbff, #ccccff);
+  border-radius: 10px;
+}
+.last{
+  margin-bottom: 20px;
+}
+.text{
+  font-size: large;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+}
+.sos{
+  display:grid;
+  grid-template-columns: 20px, 1fr;
+}
+.texts{
+  position: relative;
+  bottom: 20px;
+}
